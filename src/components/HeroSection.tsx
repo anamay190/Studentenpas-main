@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Rocket } from 'lucide-react';
+import { Rocket } from 'lucide-react';
 import StatCounter from './StatCounter';
 
 const HeroSection: React.FC = () => {
@@ -28,18 +28,15 @@ const HeroSection: React.FC = () => {
 
           {/* Right Content - Student Image */}
           <div className="lg:w-1/2 flex justify-center relative">
-           <img
-             src="/hero-girl.png"
-             alt="Happy student"
-             className="w-[300px] md:w-[350px] rounded-2xl shadow-xl z-10"
-           />
+            <img
+              src="/hero-girl.png"
+              alt="Happy student"
+              className="w-[350px] md:w-[450px] rounded-2xl shadow-xl z-10"
+            />
           </div>
         </div>
 
-        {/* Floating Icons */}
-        <div className="absolute top-20 right-1/4 opacity-70 animate-pulse">
-          <Globe size={60} className="text-blue-400" />
-        </div>
+        {/* Floating Icon - Rocket */}
         <div className="absolute bottom-36 left-10 opacity-70 animate-bounce z-10">
           <Rocket size={50} className="text-purple-400" />
         </div>
