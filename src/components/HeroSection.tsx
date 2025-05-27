@@ -1,3 +1,4 @@
+// src/components/Hero.jsx
 import React from "react";
 import heroImage from "../assets/hero-girl.png"; // use your real image path
 
