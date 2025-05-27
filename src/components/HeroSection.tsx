@@ -28,11 +28,11 @@ const HeroSection: React.FC = () => {
 
           {/* Right Content - Student Image */}
           <div className="lg:w-1/2 flex justify-center relative">
-            <img
-              src="/hero-girl.png" // Replace this with your actual image path
-              alt="Happy student"
-              className="w-[300px] md:w-[350px] rounded-2xl shadow-xl z-10"
-            />
+           <img
+             src="/hero-girl.png"
+             alt="Happy student"
+             className="w-[300px] md:w-[350px] rounded-2xl shadow-xl z-10"
+           />
           </div>
         </div>
 
