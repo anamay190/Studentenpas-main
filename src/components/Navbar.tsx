@@ -13,12 +13,12 @@ const Navbar: React.FC = () => {
     <nav className="bg-gray-900 bg-opacity-95 py-4 px-6 fixed w-full z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
-        {/* Brand/Title */}
-        <div className="flex items-center">
-          <Link to="/" className="text-white text-3xl font-extrabold tracking-tight">
-            Studentenpas
-          </Link>
-        </div>
+        {/* Logo */}
+  <div className="flex items-center text-2xl font-bold">
+  <span className="text-white">Studenten</span>
+  <span className="bg-blue-500 text-white px-2 py-1 rounded ml-1">pas</span>
+  </div>
+
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
