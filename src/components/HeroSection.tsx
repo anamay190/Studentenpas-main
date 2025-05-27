@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
           {/* Right Content - Student Image */}
           <div className="lg:w-1/2 flex justify-center relative">
             <img
-              src="/image.webp" // Replace this with your actual image path
+              src="/hero-girl" // Replace this with your actual image path
               alt="Happy student"
               className="w-[300px] md:w-[350px] rounded-2xl shadow-xl z-10"
             />
